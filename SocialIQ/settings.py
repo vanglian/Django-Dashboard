@@ -88,23 +88,8 @@ USE_TZ = True
 
 #STATIC_URL = '/plugins/'
 STATIC_URL = '/static/'
-'''STATICFILES_DIRS = (
-    "/Users/Lian/Dropbox/inrev/Research/vizualization/SocialIQ/static/",
-	"ajax","plugins",
-	"/Users/Lian/Dropbox/inrev/Research/vizualization/SocialIQ/ajax/",
-	"/Users/Lian/Dropbox/inrev/Research/vizualization/SocialIQ/static/ajax/",
-	"/Users/Lian/Dropbox/inrev/Research/vizualization/SocialIQ/static/plugins/",
-	"/Users/Lian/Dropbox/inrev/Research/vizualization/SocialIQ/css/",
-	"/Users/Lian/Dropbox/inrev/Research/vizualization/SocialIQ/fonts/",
-    
-)
-'''
+
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"),
     os.path.join(BASE_DIR, "static/plugins"),
-    '/Users/Lian/Dropbox/inrev/Research/vizualization/SocialIQ/plugins/',
-    '/Users/Lian/Dropbox/inrev/Research/vizualization/SocialIQ/css/',
-    '/Users/Lian/Dropbox/inrev/Research/vizualization/SocialIQ/fonts/',
-    '/Users/Lian/Dropbox/inrev/Research/vizualization/SocialIQ/js/',
-    '/Users/Lian/Dropbox/inrev/Research/vizualization/SocialIQ/img/',
 )
